@@ -106,7 +106,7 @@ FOREIGN KEY (IdProducto) REFERENCES COMPRA.PRODUCTOS (IdProducto),
 INSERT INTO VENTA.PAISES (IDpais, NOMBREpais) VALUES (1, 'Colombia')
 INSERT INTO VENTA.PAISES (IDpais, NOMBREpais) VALUES (2, 'Venezuela')
 INSERT INTO VENTA.PAISES (IDpais, NOMBREpais) VALUES (3, 'Ecuador')
-INSERT INTO VENTA.PAISES (IDpais, NOMBREpais) VALUES (4, 'Per˙')
+INSERT INTO VENTA.PAISES (IDpais, NOMBREpais) VALUES (4, 'Per√∫')
 INSERT INTO VENTA.PAISES (IDpais, NOMBREpais) VALUES (5, 'Chile')
 INSERT INTO VENTA.PAISES (IDpais, NOMBREpais) VALUES (6, 'Argentina')
 INSERT INTO VENTA.PAISES (IDpais, NOMBREpais) VALUES (7, 'Brasil')
@@ -115,27 +115,27 @@ INSERT INTO VENTA.PAISES (IDpais, NOMBREpais) VALUES (9, 'Uruguay')
 INSERT INTO VENTA.PAISES (IDpais, NOMBREpais) VALUES (10, 'Bolivia')
 ------------------------------------------------------------------------
 INSERT INTO COMPRA.CATEGORIAS (IDCATEGORIA, NOMBRECATEGORIA, DESCRIPCION) VALUES (1, 'Primera', 'Limpiadores hogar')
-INSERT INTO COMPRA.CATEGORIAS (IDCATEGORIA, NOMBRECATEGORIA, DESCRIPCION) VALUES (2, 'Segunda', 'Detergentes LÌquidos')
+INSERT INTO COMPRA.CATEGORIAS (IDCATEGORIA, NOMBRECATEGORIA, DESCRIPCION) VALUES (2, 'Segunda', 'Detergentes L√≠quidos')
 INSERT INTO COMPRA.CATEGORIAS (IDCATEGORIA, NOMBRECATEGORIA, DESCRIPCION) VALUES (3, 'Tercera', 'Detergentes en polvo')
 INSERT INTO COMPRA.CATEGORIAS (IDCATEGORIA, NOMBRECATEGORIA, DESCRIPCION) VALUES (4, 'Cuarta', 'Productos industriales')
 INSERT INTO COMPRA.CATEGORIAS (IDCATEGORIA, NOMBRECATEGORIA, DESCRIPCION) VALUES (5, 'Quinta', 'Uso exterior')
 ------------------------------------------------------------------------------------------------------------------------
-INSERT INTO VENTA.CLIENTES VALUES (1, 'Limpiadores el ba˙l', 'Calle 21 34-56 Guayaquil', '3', '3365658');
-INSERT INTO VENTA.CLIENTES VALUES (2, 'Olores y Olores', 'Cra 3 21-35 MedellÌn', '1', '25874587');
+INSERT INTO VENTA.CLIENTES VALUES (1, 'Limpiadores el ba√∫l', 'Calle 21 34-56 Guayaquil', '3', '3365658');
+INSERT INTO VENTA.CLIENTES VALUES (2, 'Olores y Olores', 'Cra 3 21-35 Medell√≠n', '1', '25874587');
 INSERT INTO VENTA.CLIENTES VALUES (3, 'Limpieza Uno A', 'Crc 5 23-45 Caracas', '2', '3659744');
-INSERT INTO VENTA.CLIENTES VALUES (4, 'Q˙imicos R H', 'Cra 45 23-56 Quito', '3', '8545787');
+INSERT INTO VENTA.CLIENTES VALUES (4, 'Q√∫imicos R H', 'Cra 45 23-56 Quito', '3', '8545787');
 INSERT INTO VENTA.CLIENTES VALUES (5, 'Limpiado extremo', 'Calle 2 4-56 Itagui', '1', '3254512');
 --------------------------------------------------------------------------------------------------------------------
-INSERT INTO COMPRA.PROVEEDORES VALUES(1, 'LÌquidos Extremos', 'Circ 4 78-98 MedellÌn', 'Juan Carlos Valdez', 'Asistente Comercial', 1, '2545478', '2545478')
-INSERT INTO COMPRA.PROVEEDORES VALUES(2, 'QuÏmicos lo mejor', 'Calle 21 45-67 Bogot·', 'Luis Fdo Sep˙lveda', 'Gerente General', 2, '2457874', '2457874')
-INSERT INTO COMPRA.PROVEEDORES VALUES(3, 'Esencias extremas', 'Cra 67 32-57 ItaguÌ', 'Juan Guillermo SolÛrzano', 'Asistente de ventas', 3, '6478547', '6478547')
-INSERT INTO COMPRA.PROVEEDORES VALUES(4, 'Polvos m·gicos', 'Calle 21 34-32 MedellÌn', 'Diego Hern·n Cifuentes', 'Gerente Comercial', 4, '8545124', '8545124')
-INSERT INTO COMPRA.PROVEEDORES VALUES(5, 'Reactivos eficientes', 'Diag 25 23-78 MedellÌn', 'RamÛn ElÌas Dur·n', 'Servicio al cliente', 5, '2451245', '2451245')
+INSERT INTO COMPRA.PROVEEDORES VALUES(1, 'L√≠quidos Extremos', 'Circ 4 78-98 Medell√≠n', 'Juan Carlos Valdez', 'Asistente Comercial', 1, '2545478', '2545478')
+INSERT INTO COMPRA.PROVEEDORES VALUES(2, 'Qu√¨micos lo mejor', 'Calle 21 45-67 Bogot√°', 'Luis Fdo Sep√∫lveda', 'Gerente General', 2, '2457874', '2457874')
+INSERT INTO COMPRA.PROVEEDORES VALUES(3, 'Esencias extremas', 'Cra 67 32-57 Itagu√≠', 'Juan Guillermo Sol√≥rzano', 'Asistente de ventas', 3, '6478547', '6478547')
+INSERT INTO COMPRA.PROVEEDORES VALUES(4, 'Polvos m√°gicos', 'Calle 21 34-32 Medell√≠n', 'Diego Hern√°n Cifuentes', 'Gerente Comercial', 4, '8545124', '8545124')
+INSERT INTO COMPRA.PROVEEDORES VALUES(5, 'Reactivos eficientes', 'Diag 25 23-78 Medell√≠n', 'Ram√≥n El√≠as Dur√°n', 'Servicio al cliente', 5, '2451245', '2451245')
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
-INSERT INTO COMPRA.PRODUCTOS VALUES (1, 'JabÛn Espumoso', 4, 3, 2700, 2300, 3800, 5100)
-INSERT INTO COMPRA.PRODUCTOS VALUES (2, 'Suavem·x', 3, 4, 2500, 2300, 3800, 500)
-INSERT INTO COMPRA.PRODUCTOS VALUES (3, 'JabÛn Supremo', 1, 2, 500, 2300, 3500, 700)
-INSERT INTO COMPRA.PRODUCTOS VALUES (4, 'Limpiador Rindem·x', 5, 2, 1200, 2300, 3800, 200)
+INSERT INTO COMPRA.PRODUCTOS VALUES (1, 'Jab√≥n Espumoso', 4, 3, 2700, 2300, 3800, 5100)
+INSERT INTO COMPRA.PRODUCTOS VALUES (2, 'Suavem√°x', 3, 4, 2500, 2300, 3800, 500)
+INSERT INTO COMPRA.PRODUCTOS VALUES (3, 'Jab√≥n Supremo', 1, 2, 500, 2300, 3500, 700)
+INSERT INTO COMPRA.PRODUCTOS VALUES (4, 'Limpiador Rindem√°x', 5, 2, 1200, 2300, 3800, 200)
 INSERT INTO COMPRA.PRODUCTOS VALUES (5, 'Cera Limpiadora', 4, 2, 2500, 1400, 3600, 20)
 -------------------------------------------------------------------------------------------
 INSERT INTO RRHH.CARGOS VALUES(1, 'Gerente Regional')
@@ -144,21 +144,21 @@ INSERT INTO RRHH.CARGOS VALUES(3, 'Asitente de ventas')
 INSERT INTO RRHH.CARGOS VALUES(4, 'Secretaria')
 INSERT INTO RRHH.CARGOS VALUES(5, 'Gerente General')
 ------------------------------------------------------------
-INSERT INTO RRHH.DISTRITOS VALUES(1, 'Bogot·')
+INSERT INTO RRHH.DISTRITOS VALUES(1, 'Bogot√°')
 INSERT INTO RRHH.DISTRITOS VALUES(2, 'Valle')
 INSERT INTO RRHH.DISTRITOS VALUES(3, 'Antioquia')
 INSERT INTO RRHH.DISTRITOS VALUES(4, 'Caldas')
 INSERT INTO RRHH.DISTRITOS VALUES(5, 'Meta')
 -----------------------------------------------------
-INSERT INTO RRHH.EMPLEADOS VALUES(1, 'Sr', 'Luis Guillermo', 'Mendietta', '1968-02-05', 'Cra 3 34-56 MedellÌn', 2, '2545478', 2, '1996-05-05 ',NULL)
-INSERT INTO RRHH.EMPLEADOS VALUES(2, 'Dr', 'Juan Camilo', 'Tabares', '1976-10-15', 'Calle 5 56-78 MedellÌn', 2, '3252547', 1, '2004-12-05 ',NULL)
-INSERT INTO RRHH.EMPLEADOS VALUES(3, 'Lic', 'Rafael', 'Cristancho', '2000-11-05', 'Cra 5 54-56 MedellÌn', 2, '6254578', 3, '2000-11-22 ',NULL)
-INSERT INTO RRHH.EMPLEADOS VALUES(4, 'Dn', 'Juan Gonzalo', 'Arbel·ez', '1999-06-05', 'Calle 13 24-65 MedellÌn', 2, '2147474', 5, '2001-12-15 ',NULL)
-INSERT INTO RRHH.EMPLEADOS VALUES(5, 'Sr', 'Ricardo de Jes˙s', 'Salamanca', '1998-12-05', 'Cra 19 38-62 MedellÌn', 2, '2145478', 4, '1996-06-22 ',NULL)
+INSERT INTO RRHH.EMPLEADOS VALUES(1, 'Sr', 'Luis Guillermo', 'Mendietta', '1968-02-05', 'Cra 3 34-56 Medell√≠n', 2, '2545478', 2, '1996-05-05 ',NULL)
+INSERT INTO RRHH.EMPLEADOS VALUES(2, 'Dr', 'Juan Camilo', 'Tabares', '1976-10-15', 'Calle 5 56-78 Medell√≠n', 2, '3252547', 1, '2004-12-05 ',NULL)
+INSERT INTO RRHH.EMPLEADOS VALUES(3, 'Lic', 'Rafael', 'Cristancho', '2000-11-05', 'Cra 5 54-56 Medell√≠n', 2, '6254578', 3, '2000-11-22 ',NULL)
+INSERT INTO RRHH.EMPLEADOS VALUES(4, 'Dn', 'Juan Gonzalo', 'Arbel√°ez', '1999-06-05', 'Calle 13 24-65 Medell√≠n', 2, '2147474', 5, '2001-12-15 ',NULL)
+INSERT INTO RRHH.EMPLEADOS VALUES(5, 'Sr', 'Ricardo de Jes√∫s', 'Salamanca', '1998-12-05', 'Cra 19 38-62 Medell√≠n', 2, '2145478', 4, '1996-06-22 ',NULL)
 ----------------------------------------------------------------------------------------------------------------------------------------------------------
 INSERT INTO VENTA.PEDIDOSCABE VALUES(1, 1, 2, '2014-02-06', '2014-02-22', '2014-02-15', 'Emviado', 'Limpieza profunda', 'Calle 35 56-67')
 INSERT INTO VENTA.PEDIDOSCABE VALUES(2, 1, 2, '2014-02-08', '2014-02-25', '2014-02-17', 'Emviado', 'Limpieza profunda', 'Calle 35 56-67')
-INSERT INTO VENTA.PEDIDOSCABE VALUES(3, 4, 2, '2014-02-06', '2014-02-22', '2014-02-15', 'Emviado', 'Aseos extremos', 'Car 46 15-35 MedellÌn')
+INSERT INTO VENTA.PEDIDOSCABE VALUES(3, 4, 2, '2014-02-06', '2014-02-22', '2014-02-15', 'Emviado', 'Aseos extremos', 'Car 46 15-35 Medell√≠n')
 INSERT INTO VENTA.PEDIDOSCABE VALUES(4, 1, 2, '2014-02-07', '2014-02-22', '2014-02-15', 'Emviado', 'Suavemax', 'Calle 5 23-45')
 INSERT INTO VENTA.PEDIDOSCABE VALUES(5, 1, 2, '2014-02-06', '2014-02-22', '2014-02-15', 'Emviado', 'Limpieza profunda', 'Calle 35 56-67')
 -----------------------------------------------------------------------------------------------------------------------------------------------------
